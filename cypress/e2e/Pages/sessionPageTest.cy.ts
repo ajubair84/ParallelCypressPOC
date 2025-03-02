@@ -14,7 +14,6 @@ describe("Create a New Session",()=>{
     it("Detais of new session",()=>{
         const login = new Loging
         const createsession = new CreateSession
-
         createsession.clickNewBtn()
         createsession.clickSessionLink()
         //createsession.selectDate(1)
