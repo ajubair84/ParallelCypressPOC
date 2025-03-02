@@ -1,0 +1,19 @@
+{
+  "name": "paralle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdur",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.1.0",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "cypress-xpath": "^2.0.1"
+  }
+}
