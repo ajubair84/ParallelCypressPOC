@@ -11,7 +11,7 @@ export default defineConfig({
     env:{
       qaurl: "https://pathway.parallel-staging.com/",
     }
-   
+  
   },
   
 
