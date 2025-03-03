@@ -23,7 +23,7 @@ describe("Create a New Session",()=>{
         createsession.appointment()
         createsession.submitBtn()
         createsession.clickCalender()
-        //createsession.clickJoinSession()
+        createsession.clickJoinSession()
         createsession.verifyHeader()
         createsession.verifyDate()
         createsession.downloadRecordingBtn()
