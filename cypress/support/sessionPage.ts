@@ -19,7 +19,6 @@ class CreateSession
     message=".MuiTypography-root.MuiTypography-body1.css-hcmjbp"
     deleteButton="button[aria-label='Confirm Delete Appointment']"
     
-
     clickNewBtn(){cy.xpath(this.newButton).click({force:true})}
     clickSessionLink(){cy.xpath(this.sessoinLink).click({force:true})}
     selectDate(daysAhead = 7){
